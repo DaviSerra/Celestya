@@ -6,8 +6,11 @@
     --font-bellefair: "Bellefair", "sans-serif";
     --font-barlow-condensed: "Barlow Condensed", "sans-serif";
     --font-barlow: "Barlow", "sans-serif";
-    --blue-900: #0B0D17;
-    --blue-300: #D0D6F9;
+    --blue-primary: #0B0D17;
+    --blue-secondary: #D0D6F9;
     --white: #FFFFFF;
     --tracking-1: 2px;
+    --text-10xl: 144px;
+    --text-1xl: 18px;
   }
+  
