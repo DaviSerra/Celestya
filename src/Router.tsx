@@ -10,8 +10,6 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destino" element={<Destiny />} />
-        {/* <Route path="/equipe" element={<Equipe />} />
-        <Route path="/tecnologia" element={<Tecnologia />} /> */}
       </Routes>
     </Layout>
   );
