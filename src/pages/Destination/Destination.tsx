@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { destinations } from '../../../data/destinations';
+import { destinations } from '../../data/mockDestinations';
+import Breadcrumb from '../../components/breadcrumb/breadcrumb';
 
-interface DestinyProps {
+interface DestinationsProps {
   name: string;
   description: string;
   distance: string;
@@ -9,9 +10,9 @@ interface DestinyProps {
   image: string;
 }
 
-const Destiny: React.FC = () => {
+const Destination: React.FC = () => {
   const [selectedDestination, setSelectedDestination] = useState<number>(0);
-  const currentDestination: DestinyProps = destinations[selectedDestination];
+  const currentDestination: DestinationsProps = destinations[selectedDestination];
 
   const handleDestinationChange = (index: number): void => {
     setSelectedDestination(index);
@@ -20,10 +21,9 @@ const Destiny: React.FC = () => {
   return (
     <div className="min-h-screen text-white pt-20 sm:pt-40 w-full overflow-hidden bg-center bg-cover bg-[url('/src/assets/design/background-destination.png')] bg-no-repeat">
       <div className="container mx-auto px-4 sm:px-0">
-        <h1 className="text-3xl font-barlow-condensed uppercase tracking-4 text-center sm:text-left"><span className="text-white/20 text-3xl px-2 sm:px-6 font-barlow-condensed">01</span>Selecione seu destino</h1>
+        <Breadcrumb title="Selecione seu destino" page="01" />
       </div>
-
-      <div className="flex justify-center items-center flex-col lg:flex-row container mx-auto">
+      <div className="flex justify-center items-center flex-col lg:flex-row mx-auto">
         <div className="md:flex justify-center items-center">
           <img
             style={{ animationDuration: '100s' }}
@@ -37,7 +37,7 @@ const Destiny: React.FC = () => {
               <button
                 key={destination.name}
                 onClick={() => handleDestinationChange(index)}
-                className={`uppercase text-sm sm:text-lg tracking-1 pb-2 font-barlow-condensed transition-colors ${selectedDestination === index
+                className={`uppercase cursor-pointer text-sm sm:text-lg tracking-1 pb-2 font-barlow-condensed transition-colors ${selectedDestination === index
                     ? "border-b-2 text-white border-white"
                     : "text-[var(--blue-secondary)] hover:text-white/70 hover:border-b-2 hover:border-white/50"
                   }`}
@@ -73,4 +73,4 @@ const Destiny: React.FC = () => {
   );
 }
 
-export default Destiny;
+export default Destination;

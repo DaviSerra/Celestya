@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div
       className="min-h-screen w-screen py-10 md:py-0 lg:py-10 bg-center overflow-hidden bg-cover lg:bg-[url('/src/assets/design/background-home.png')] bg-[url('/src/assets/design/background-tablet.png')] bg-no-repeat">
@@ -15,7 +14,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-
         <div className="group self-center lg:self-end">
           <Link to="/destino" className="w-full">
             <div className="relative w-[150px] h-[150px] md:w-[272px] md:h-[272px] md:mt-10 lg:w-[272px] lg:h-[272px] cursor-pointer">
@@ -30,3 +28,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

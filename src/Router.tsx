@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./layouts";
 import Home from "./pages/home/Home";
-import Destiny from "./pages/home/Destiny/Destiny";
+import Destination from "./pages/Destination/Destination";
+import Crew from "./pages/crew/Crew";
 
 
 export default function Router() {
@@ -9,7 +10,8 @@ export default function Router() {
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/destino" element={<Destiny />} />
+        <Route path="/destino" element={<Destination />} />
+        <Route path="/equipe" element={<Crew />} />
       </Routes>
     </Layout>
   );
