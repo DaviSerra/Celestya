@@ -18,8 +18,8 @@ const Crew: React.FC = () => {
     }
 
     return (
-        <div className="min-h-screen bg-center bg-cover bg-no-repeat bg-[url('/src/assets/design/background-crew.png')] flex flex-col justify-center py-8 md:py-0">
-            <div className="container mx-auto px-4 mb-8 md:mb-12">
+        <div className="min-h-screen text-white pt-10 sm:pt-20 md:pt-30 lg:pt-40 w-full overflow-hidden bg-center bg-cover bg-[url('/src/assets/design/background-crew.png')] bg-no-repeat">
+            <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
                 <Breadcrumb title="Conheça sua equipe" page="02" />
             </div>
 
@@ -37,10 +37,10 @@ const Crew: React.FC = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                    <img 
-                        className="w-56 md:w-90 lg:w-[440px] object-contain" 
-                        src={currentCrew.image} 
-                        alt={currentCrew.member} 
+                    <img
+                        className="w-56 md:w-90 lg:w-[440px] object-contain"
+                        src={currentCrew.image}
+                        alt={currentCrew.member}
                     />
                 </div>
             </div>
@@ -51,8 +51,8 @@ const Crew: React.FC = () => {
                         onClick={() => handleCrewChange(index)}
                         key={name.member}
                         className={`w-2.5 h-2.5 rounded-full cursor-pointer transition-colors 
-                            ${selectedCrew === index 
-                                ? 'bg-white' 
+                            ${selectedCrew === index
+                                ? 'bg-white'
                                 : 'bg-gray-600 hover:bg-gray-400'
                             }`}
                     >
