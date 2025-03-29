@@ -1,20 +1,20 @@
 export const tecnologies = [
   {
-    name: "Launch Vehicle",
+    name: "Veículo de lançamento",
     description:
-    "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!",
+      "Um veículo de lançamento ou foguete transportador é um veículo propulsionado por foguete usado para transportar uma carga útil da superfície da Terra para o espaço, geralmente para a órbita da Terra ou além. Nosso foguete transportador WEB-X é o mais poderoso em operação. Com 150 metros de altura, é uma visão bastante inspiradora na plataforma de lançamento!",
     image: "src/assets/technologies/TechnologyA.png",
   },
   {
-    name: "Spaceport",
+    name: "Espaçoporto",
     description:
-    "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.",
+      "Um espaçoporto ou cosmódromo é um local para lançar (ou receber) naves espaciais, por analogia ao porto marítimo para navios ou aeroporto para aeronaves. Baseado no famoso Cabo Canaveral, nosso espaçoporto está idealmente situado para aproveitar a rotação da Terra para lançamento.",
     image: "src/assets/technologies/TechnologyB.png",
   },
   {
-    name: "Space capsule",
+    name: "Cápsula espacial",
     description:
-    "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.",
+      "Uma cápsula espacial é uma nave espacial frequentemente tripulada que usa uma cápsula de reentrada de corpo rombudo para reentrar na atmosfera da Terra sem asas. Nossa cápsula é onde você passará seu tempo durante o voo. Ela inclui uma academia espacial, cinema e muitas outras atividades para mantê-lo entretido.",
     image: "src/assets/technologies/TechnologyC.png",
   },
 ];

@@ -18,19 +18,23 @@ const Crew: React.FC = () => {
     }
 
     return (
-        <div className="min-h-screen text-white pt-10 sm:pt-20 md:pt-30 lg:pt-40 w-full overflow-hidden bg-center bg-cover bg-[url('/src/assets/design/background-crew.png')] bg-no-repeat">
+        <div className="min-h-screen text-white pt-28 sm:pt-20 md:pt-30 lg:pt-40 w-full overflow-hidden bg-center bg-cover bg-[url('/src/assets/design/background-crew.png')] bg-no-repeat">
             <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
                 <Breadcrumb title="Conheça sua equipe" page="02" />
             </div>
 
-            <div className="container mx-auto px-4 grid md:grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <div className="text-center md:text-left space-y-4">
-                    <h2 className="text-xl md:text-2xl md:text-center lg:text-left uppercase font-bellefair text-white/50">
-                        {currentCrew.role}
-                    </h2>
-                    <h2 className="text-3xl md:text-4xl md:text-center lg:text-left uppercase font-bellefair text-white">
-                        {currentCrew.member}
-                    </h2>
+            <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 grid md:grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div className="text-center md:text-left md:mt-12 mt-8 lg:mt-0">
+
+                    <div className="mb-5 md:mb-8 space-y-2 lg:mb-0">
+                        <h2 className="text-xl md:text-2xl md:text-center lg:text-left uppercase font-bellefair text-white/50">
+                            {currentCrew.role}
+                        </h2>
+                        <h2 className="text-3xl md:text-4xl md:text-center lg:text-left uppercase font-bellefair text-white">
+                            {currentCrew.member}
+                        </h2>
+                    </div>
+
                     <p className="text-base md:text-lg md:text-center lg:text-left text-[var(--blue-secondary)] font-barlow leading-relaxed">
                         {currentCrew.description}
                     </p>
