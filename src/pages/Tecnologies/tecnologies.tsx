@@ -17,7 +17,7 @@ const Tecnologies: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen text-white pt-24 md:pt-20 w-full overflow-hidden bg-[url('/src/assets/design/background-tecnologies.png')] bg-center bg-cover bg-no-repeat" >
+    <div className="min-h-screen text-white pt-24 md:pt-20 w-full overflow-hidden bg-[url('/design/background-tecnologies.png')] bg-center bg-cover bg-no-repeat" >
       <div className="container mx-auto px-4 md:px-6 lg:px-8 md:pt-10 lg:pt-20">
         <Breadcrumb title="Lançamento espacial 101" page="03" />
       </div>

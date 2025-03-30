@@ -19,7 +19,7 @@ const Destination: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen text-white pt-10 sm:pt-20 md:pt-20 lg:pt-40 w-full overflow-hidden bg-center bg-cover bg-[url('/src/assets/design/background-destination.png')] bg-no-repeat">
+    <div className="min-h-screen text-white pt-10 sm:pt-20 md:pt-20 lg:pt-40 w-full overflow-hidden bg-center bg-cover bg-[url('/design/background-destination.png')] bg-no-repeat">
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 mt-20 md:mt-10 lg:mt-0">
         <Breadcrumb title="Selecione seu destino" page="01" />
       </div>

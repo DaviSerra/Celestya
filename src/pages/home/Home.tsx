@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Home: React.FC = () => {
   return (
     <div
-      className="min-h-screen w-screen py-10 md:py-0 lg:py-10 bg-center overflow-hidden bg-cover lg:bg-[url('/src/assets/design/background-home.png')] bg-[url('/src/assets/design/background-tablet.png')] bg-no-repeat">
+      className="min-h-screen w-screen py-10 md:py-0 lg:py-10 bg-center overflow-hidden bg-cover lg:bg-[url('/design/background-home.png')] bg-[url('/src/assets/design/background-tablet.png')] bg-no-repeat">
       <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:items-end lg:h-[60vh] px-6 md:px-20 lg:px-36 md:mt-28 pt-28 lg:pt-0 md:pt-0">
         <div className="flex flex-col space-y-3 md:space-y-6 text-center lg:text-left mb-10 lg:mb-0">
           <h1 className="font-barlow-condensed text-lg md:text-2xl text-[var(--blue-secondary)] uppercase tracking-1">Então... você quer explorar o</h1>
