@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./layouts";
 import Tecnologies from "./pages/Tecnologies/tecnologies";
-import Home from "./pages/home/home";
-import Destination from "./pages/Destination/destination";
-import Crew from "./pages/Crew/crew";
+import Home from "./pages/home/Home";
+import Destination from "./pages/Destination/Destination";
+import Crew from "./pages/crew/crew";
+
 
 export default function Router() {
   return (
