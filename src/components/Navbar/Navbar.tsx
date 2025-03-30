@@ -11,7 +11,7 @@ export default function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
- 
+  
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex text-white py-10 mx-5 lg:mx-0 md:mx-0 md:py-0 lg:py-10">
       <img className="ml-4 md:ml-10 h-8 md:h-auto" src="src/assets/brand/logo.svg" alt="Logo principal" />
