@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="h-px w-full bg-white/30 absolute md:hidden lg:block left-4 top-1/2 transform -translate-y-1/2 z-20"></div>
       </div>
       {isMobile && (
-        <button 
+        <button  
           onClick={toggleMenu} 
           className="fixed top-10 right-5 z-50 "
           aria-label="Menu"
