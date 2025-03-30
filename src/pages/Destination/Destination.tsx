@@ -57,29 +57,28 @@ const Destination: React.FC = () => {
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bellefair uppercase">
               {currentDestination.name}
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-[var(--blue-secondary)] font-barlow max-w-prose mx-auto lg:mx-0">
+
+            <p className="text-base sm:text-lg md:text-xl text-[var(--blue-secondary)]/70 font-barlow max-w-prose mx-auto lg:mx-0">
               {currentDestination.description}
             </p>
-
-
-            <div className="hidden md:block">
+            <div className="md:block">
               <div className="h-px w-full bg-white/30 my-6"></div>
             </div>
 
-            <div className="grid grid-cols-2 md:flex justify-between space-x-4 pt-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 space-y-5 md:flex justify-between pt-5">
               <div className="text-center lg:text-left">
-                <h3 className="text-xs sm:text-sm text-[var(--blue-secondary)] uppercase tracking-widest">
+                <h3 className="text-sm text-[var(--blue-secondary)] uppercase tracking-widest font-barlow-condensed">
                   Distância média
                 </h3>
-                <span className="text-xl sm:text-2xl md:text-3xl font-bellefair uppercase">
+                <span className="text-2xl font-bellefair uppercase">
                   {currentDestination.distance}
                 </span>
               </div>
               <div className="text-center lg:text-left">
-                <h3 className="text-xs sm:text-sm text-[var(--blue-secondary)] uppercase tracking-widest">
+                <h3 className="text-sm text-[var(--blue-secondary)]  uppercase tracking-widest font-barlow-condensed">
                   Tempo de viagem
                 </h3>
-                <span className="text-xl sm:text-2xl md:text-3xl font-bellefair uppercase">
+                <span className="text-2xl font-bellefair uppercase">
                   {currentDestination.travelTime}
                 </span>
               </div>

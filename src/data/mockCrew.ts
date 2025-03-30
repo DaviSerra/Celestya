@@ -4,7 +4,7 @@ export const crew = [
     member: "Douglas Hurley",
     description:
       "Douglas Gerald Hurley é um engenheiro aeroespacial, piloto de teste, coronel aposentado do Corpo de Fuzileiros Navais dos Estados Unidos e astronauta da NASA. Ele foi o piloto do STS-127 e o comandante do STS-135, a última missão do ônibus espacial.",
-    image: "src/assets/crew/Douglas-Hurley.png",
+    image: "src/assets/crew/Douglas Hurley.png",
   },
   {
     role: "Especialista de Missão",

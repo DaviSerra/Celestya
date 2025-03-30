@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex text-white py-10 md:py-0 lg:py-10">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex text-white py-10 mx-5 md:py-0 lg:py-10">
       <img className="ml-4 md:ml-10 h-8 md:h-auto" src="src/assets/brand/logo.svg" alt="Logo principal" />
       <div className="relative flex-1 ml-4 md:ml-12 over hidden md:block">
         <div className="h-px w-full bg-white/30 absolute md:hidden lg:block left-4 top-1/2 transform -translate-y-1/2 z-20"></div>
