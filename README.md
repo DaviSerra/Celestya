@@ -2,8 +2,7 @@
 
 > Uma jornada interativa pelos destinos espaciais desenvolvida para o desafio Frontend Mentor
 
-![image](https://github.com/user-attachments/assets/b89408e9-2193-46d6-bf26-10bee26081d1)
-
+![image](https://github.com/user-attachments/assets/60da6357-6837-442c-bec0-86a332c7ecdc)
 
 [![My Skills](https://skillicons.dev/icons?i=react,tailwind,typescript,figma)](https://skillicons.dev)
 
@@ -24,7 +23,7 @@ Explore o universo sem sair da Terra. Celestya convida você a conhecer nosso si
 ## 🚀 Funcionalidades
 
 ### Exploração de Destinos
-![image](https://github.com/user-attachments/assets/3efcdaf9-f938-44db-9898-46f7dfb51e13)
+![image](https://github.com/user-attachments/assets/d874ed82-a5b1-4d10-92e3-1593926eb6ee)
 
 Visite a **Lua**, **Marte**, **Europa** e **Titã**. Cada destino inclui:
 - Distância da Terra
