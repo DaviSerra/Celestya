@@ -33,7 +33,7 @@ Visite a **Lua**, **Marte**, **Europa** e **Titã**. Cada destino inclui:
 - Curiosidades científicas
 
 ### Equipe Espacial
-![image](https://github.com/user-attachments/assets/cf37e33b-139c-4670-b8de-99921e455ed0)
+![image](https://github.com/user-attachments/assets/de0b62d3-2f8c-4b8d-94f5-2b0b32db71ab)
 
 Conheça os astronautas e especialistas que tornam possível a exploração espacial:
 - Comandantes
@@ -42,7 +42,7 @@ Conheça os astronautas e especialistas que tornam possível a exploração espa
 - Engenheiros de voo
 
 ### Hub de Tecnologia
-![image](https://github.com/user-attachments/assets/2e820211-f582-4fd1-95ec-e41a68fc0537)
+![image](https://github.com/user-attachments/assets/ceadf0d2-89a1-4ad1-bd80-e40fef8ea760)
 
 Explore os veículos e inovações que impulsionam nossas viagens espaciais:
 - Foguetes de lançamento
@@ -59,14 +59,6 @@ Explore os veículos e inovações que impulsionam nossas viagens espaciais:
 | React | Vite | Figma |
 | TypeScript | NPM | Responsivo |
 | Tailwind CSS |  | Design System |
-
----
-
-## 🔍 Preview
-
-<div align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/FFFFFF?text=Space+Explorer+Preview" alt="Preview do Projeto" />
-</div>
 
 ---
 
