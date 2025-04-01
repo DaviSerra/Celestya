@@ -71,7 +71,7 @@ Explore os veículos e inovações que impulsionam nossas viagens espaciais:
 ## 🔮 Próximos Passos  
 
 - [ ] Adicionar modo noturno/diurno  
-- [ ] Implementar animações entre transições  
+- [ ] Implementar animações entre transições com gsap!
 - [ ] Adicionar mais destinos espaciais  
 - [ ] Integrar modelo 3D dos planetas  
 
