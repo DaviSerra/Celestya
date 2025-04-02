@@ -17,7 +17,7 @@
 Explore o universo sem sair da Terra. **Celestya** convida você a conhecer nosso sistema solar através de uma interface moderna e imersiva.  
 
 🔭 **Celestya é um portal dedicado à exploração do espaço e da astronomia.**  
-Nosso objetivo é tornar a astronomia acessível para todos, inspirando curiosidade e conhecimento sobre o cosmos.  
+      O principal objetivo é tornar a astronomia acessível para todos, inspirando curiosidade e conhecimento sobre o cosmos.  
 
 ### **🌠 Destaques:**  
 - Navegue entre os destinos espaciais mais fascinantes  
