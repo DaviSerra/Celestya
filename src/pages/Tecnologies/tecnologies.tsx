@@ -50,7 +50,7 @@ const Tecnologies: React.FC = () => {
         <div className="flex flex-col items-center text-center px-4 md:px-8 max-w-md mx-auto mt-6 md:mt-8 space-y-2">
           <h3 className="text-white/50 font-bellefair text-sm md:text-lg uppercase">A terminologia...</h3>
           <h1 className="text-white text-xl md:text-3xl font-bellefair uppercase">{currentTechnology.name}</h1>
-          <p className="text-xs md:text-sm font-barlow text-[var(--blue-secondary)] leading-relaxed">
+          <p className="text-xs md:text-sm font-barlow text-blue-secondary leading-relaxed">
             {currentTechnology.description}
           </p>
         </div>
@@ -76,7 +76,7 @@ const Tecnologies: React.FC = () => {
         <div className="flex flex-col justify-start items-start max-w-2xl space-y-3">
           <h3 className="text-white/50 font-bellefair text-3xl uppercase">A terminologia...</h3>
           <h1 className="text-white text-2xl md:text-4xl lg:text-5xl font-bellefair uppercase text-nowrap">{currentTechnology.name}</h1>
-          <p className="text-sm md:text-base lg:text-lg font-barlow text-[var(--blue-secondary)] leading-relaxed">
+          <p className="text-sm md:text-base lg:text-lg font-barlow text-blue-secondary leading-relaxed">
             {currentTechnology.description}
           </p>
         </div>

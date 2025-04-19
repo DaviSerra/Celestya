@@ -35,7 +35,7 @@ const Crew: React.FC = () => {
                         </h2>
                     </div>
 
-                    <p className="text-base md:text-lg md:text-center lg:text-left text-[var(--blue-secondary)] font-barlow leading-relaxed">
+                    <p className="text-base md:text-lg md:text-center lg:text-left text-blue-secondary font-barlow leading-relaxed">
                         {currentCrew.description}
                     </p>
                 </div>
