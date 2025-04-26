@@ -1,5 +1,8 @@
 # 🌌 Celestya
 
+> Acesse aqui!
+https://celestya.pages.dev
+
 > Uma jornada interativa pelos destinos espaciais desenvolvida para o desafio Frontend Mentor
 
 ![image](https://github.com/user-attachments/assets/60da6357-6837-442c-bec0-86a332c7ecdc)
