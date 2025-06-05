@@ -7,8 +7,6 @@ https://celestya.pages.dev
 
 ![image](https://github.com/user-attachments/assets/60da6357-6837-442c-bec0-86a332c7ecdc)
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind,typescript,figma)](https://skillicons.dev)
-
 ---
 
 ## 💫 Visão Geral
