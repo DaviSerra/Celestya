@@ -13,7 +13,7 @@ https://celestya.pages.dev
 
 Explore o universo sem sair da Terra. Celestya convida você a conhecer nosso sistema solar através de uma interface moderna e imersiva.
 
-**🌠 Destaques:**
+**Destaques:**
 * Navegue entre os destinos espaciais mais fascinantes
 * Conheça a equipe de astronautas e especialistas
 * Descubra as tecnologias de ponta para exploração espacial
