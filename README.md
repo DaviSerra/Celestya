@@ -1,4 +1,4 @@
-# 🌌 Celestya
+# Celestya
 
 > Acesse aqui!
 https://celestya.pages.dev
@@ -9,7 +9,7 @@ https://celestya.pages.dev
 
 ---
 
-## 💫 Visão Geral
+## Visão Geral
 
 Explore o universo sem sair da Terra. Celestya convida você a conhecer nosso sistema solar através de uma interface moderna e imersiva.
 
@@ -21,7 +21,7 @@ Explore o universo sem sair da Terra. Celestya convida você a conhecer nosso si
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 ### Exploração de Destinos
 ![image](https://github.com/user-attachments/assets/d874ed82-a5b1-4d10-92e3-1593926eb6ee)
@@ -52,7 +52,7 @@ Explore os veículos e inovações que impulsionam nossas viagens espaciais:
 
 ---
 
-## ⚙️ Tecnologias
+## Tecnologias
 
 | Frontend | Build Tools | Design |
 |:--------:|:-----------:|:------:|
@@ -62,7 +62,7 @@ Explore os veículos e inovações que impulsionam nossas viagens espaciais:
 
 ---
 
-## 🔮 Próximos Passos
+## Próximos Passos
 
 - [ ] Adicionar modo noturno/diurno
 - [ ] Implementar animações entre transições
